@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .padding-desktop {
+    @apply px-[120px] py-[60px];
+  }
+
+  .padding-tablet {
+    @apply p-[32px];
+  }
+  .padding-phone {
+    @apply p-[16px];
+  }
+}
